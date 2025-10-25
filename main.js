@@ -32,8 +32,8 @@ var max = 364;
 var backGroundImg = new Image();
 backGroundImg.src = "bg_play.png";
 var clear = function(){
-	var img = new Image();
-	img.src = "background.png";
+	// var img = new Image();
+	// img.src = "background.png";
 
 	ctx.clearRect(0, 0, width, height);
 	ctx.beginPath();

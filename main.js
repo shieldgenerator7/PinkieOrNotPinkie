@@ -679,7 +679,7 @@ function open(){//opening screen
 		// openy2 = Math.random(height - 100 + 100 + 1) + 100;
 		// distracted = 1;
 	// }
-	var btnPlay = new Button("Play", 100, 100, "play");
+	var btnPlay = new Button("play", 100, 100, "play");
 	var btnCredits = new Button("credits", width/2, height/2 + 50, "credits");
 	var btnInfo = new Button("howToPlay", 200, 200, "info");
 	
